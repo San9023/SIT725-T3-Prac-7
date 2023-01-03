@@ -1,14 +1,15 @@
 {
-  "name": "sit725-t3-prac3",
+  "name": "sit725-t3-prac6",
   "version": "1.0.0",
   "description": "SIT725 Practicals",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/San9023/SIT725-T3-Prac-3"
+    "url": "git+https://github.com/San9023/SIT725-T3-Prac-6"
   },
   "keywords": [
     "Express",
@@ -17,10 +18,13 @@
   "author": "San",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/San9023/SIT725-T3-Prac-3/issues"
+    "url": "https://github.com/San9023/SIT725-T3-Prac-6/issues"
   },
-  "homepage": "https://github.com/San9023/SIT725-T3-Prac-3#readme",
+  "homepage": "https://github.com/San9023/SIT725-T3-Prac-6#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "chai": "^4.3.7",
+    "express": "^4.18.2",
+    "mocha": "^10.2.0",
+    "request": "^2.88.2"
   }
 }
