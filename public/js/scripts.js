@@ -1,3 +1,12 @@
+const { io } = require("socket.io-client");
+
+    // connect to the socket​
+let socket = io();
+socket.on('number', (msg) => {
+        console.log('Random number: ' + msg);
+    })
+     
+
 
 const cardList= [
     {
@@ -13,7 +22,8 @@ const cardList= [
     desciption:"CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts."
     }
     ]
- const clickMe= () =>{
+
+const clickMe= () =>{
     alert("Thanks for clicking me. Hope you have a nice day!")
     }
  const submitForm= () =>{
