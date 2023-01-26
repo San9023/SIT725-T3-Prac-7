@@ -1,4 +1,4 @@
-const { io } = require("socket.io-client");
+// const { io } = require("socket.io-client");
 
     // connect to the socket​
 let socket = io();
